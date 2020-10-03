@@ -10,26 +10,27 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.green[300],
+        //backgroundImage: AssetImage('images/fondo.jpg'),
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage('images/chihau.png'),
+                backgroundImage: AssetImage('images/felipe.png'),
               ),
               Text(
-                'Chihau Chau',
+                'Felipe Gutiérrez',
                 style: TextStyle(
-                  fontSize: 40.0,
-                  fontFamily: 'Caveat',
+                  fontSize: 35.0,
+                  fontFamily: 'Triforce',
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
               ),
               Text(
-                'Ingeniero de Software y Profesor',
+                'Estudiante de Informática',
                 style: TextStyle(
                   fontSize: 22.0,
                   fontFamily: 'Caveat',
@@ -44,12 +45,12 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.call,
-                    color: Colors.red,
+                    color: Colors.green,
                   ),
                   title: Text(
-                    '+56 9 999999999',
+                    '+56 9 83677734',
                     style: TextStyle(
-                      color: Colors.red,
+                      color: Colors.black,
                       fontSize: 18.0,
                     ),
                   ),
@@ -63,12 +64,12 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.email,
-                    color: Colors.red,
+                    color: Colors.blue,
                   ),
                   title: Text(
-                    'chihau@qbo.cl',
+                    'felipe.gutierrezmu@usm.cl',
                     style: TextStyle(
-                      color: Colors.red,
+                      color: Colors.black,
                       fontSize: 18.0,
                     ),
                   ),
@@ -83,15 +84,15 @@ class MyApp extends StatelessWidget {
                   leading: Text(
                     '@',
                     style: TextStyle(
-                      color: Colors.red,
+                      color: Colors.orange,
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                   title: Text(
-                    'chihau',
+                    'felipelmusico',
                     style: TextStyle(
-                      color: Colors.red,
+                      color: Colors.black,
                       fontSize: 18.0,
                     ),
                   ),
@@ -108,9 +109,9 @@ class MyApp extends StatelessWidget {
                     color: Colors.red,
                   ),
                   title: Text(
-                    'Av. España 1680, Valparaíso',
+                    'Av España st 14, El Quisco',
                     style: TextStyle(
-                      color: Colors.red,
+                      color: Colors.black,
                       fontSize: 18.0,
                     ),
                   ),
